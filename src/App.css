@@ -1,0 +1,28 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);/* refer webgradients.com _ copy css */
+}
+
+.searchform{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.searchbutton{
+  background: #fbc2eb;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20%;
+}
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
